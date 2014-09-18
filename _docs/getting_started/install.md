@@ -8,4 +8,6 @@ order: 1.1
 
 # Install
 
-This is `getting_started/install.md`.
+Run `sudo npm install -g shout`.
+
+Afterwards, use `shout` to start the server and `shout --help` or [this page](usage.html) for more info.
