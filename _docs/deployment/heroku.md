@@ -64,12 +64,6 @@ web: node index --private --home /app
 
 _You can read more about Procfiles [here](https://devcenter.heroku.com/articles/procfile)._
 
-To create users, stand in the `shout/` directory and call this:
-
-```
-$ ./index.js --home . add <username>
-```
-
 ### Step 5:
 
 Time to publish to Heroku!
@@ -85,4 +79,12 @@ And with that done, lets go ahead and push to Heroku:
 
 ```
 $ git push heroku
+```
+
+### Step 6:
+
+To create users, run this:
+
+```
+heroku run ./index.js add yourusername    
 ```
