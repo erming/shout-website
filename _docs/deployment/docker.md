@@ -17,7 +17,7 @@ Please follow these [instructions](https://docs.docker.com/installation/#install
 Clone the Shout repository:
 
 ```
-$ git clone git@github.com:erming/shout.git
+$ git clone https://github.com/erming/shout.git
 $ cd shout
 ```
 
