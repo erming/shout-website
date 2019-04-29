@@ -20,10 +20,15 @@ And if you don't &mdash; pick your operating system below:
 
 ### Step 1:
 
-Install the requirements using apt-get:
+Install the requirements using your package manager.
 
+On a Debian-based system:
 ```
-$ sudo apt-get -y install nodejs-legacy npm
+debian-host$ sudo apt-get -y install nodejs-legacy npm
+```
+On Fedora:
+```
+fedora-host$ sudo yum install nodejs npm
 ```
 
 ### Step 2:
